@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=dev,initial-scale=1.0">
+    <title>疫情追踪</title>
+    <script src="../static/js/jquery.js"></script>
+    <script src="../static/js/echarts.min.js"></script>
+    <script src="../static/js/china.js"></script>
+    <script src="../static/js/worldcloud.js"></script>
+    <link href="../static/css/china.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id="title">全国疫情实时追踪</div>
+    <div id="time">日期时间</div>
+    <div id="c1">
+        <div class="num"><h1>0</h1></div>
+        <div class="num"><h1>0</h1></div>
+        <div class="num"><h1>0</h1></div>
+        <div class="num"><h1>0</h1></div>
+        <div class="txt"><h2>累计确诊</h2></div>
+        <div class="txt"><h2>今日新增</h2></div>
+        <div class="txt"><h2>累计治愈</h2></div>
+        <div class="txt"><h2>累计死亡</h2></div>
+    </div>
+    <div id="c2">中间2</div>
+    <div id="l1">左1</div>
+    <div id="l2">左2</div>
+    <div id="r1">右1</div>
+    <div id="r2">右2</div>
+    <script src="../static/js/china_controller.js"></script>
+    <script src="../static/js/china_center.js"></script>
+    <script src="../static/js/china_left1.js"></script>
+    <script src="../static/js/china_left2.js"></script>
+    <script src="../static/js/china_right1.js"></script>
+    <script src="../static/js/china_right2.js"></script>
+
+<!-- <script>
+    
+    // 调用gettime函数,每隔1秒调用一次函数
+    setInterval(gettime,1000)
+    setInterval(get_c1_data, 1000)
+
+</script> -->
+</body>
+</html>
